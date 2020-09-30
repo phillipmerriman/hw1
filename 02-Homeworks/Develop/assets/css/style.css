@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* setting background color of page */
 body {
     background-color: #d9dcd6;
 }
 
+/* styling header font */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,20 @@ body {
     color: #ffffff;
 }
 
+/* styling the h1 header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styling the h1 header even more */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* changed div to nav 
+    styling for navigation
+*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,35 @@ body {
     font-size: 20px;
 }
 
+/* changed div to nav 
+    stylings for the actual list of navigation elements
+*/
 nav ul {
     list-style-type: none;
 }
 
+/* changed div to nav 
+    see previous comment ↑↑↑
+*/
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* lets add some stylings to all the anchor tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* and now we shall proceed to styling all of the paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Black Panther? 
+I was unsure if I should keep the image sourced from here, or move it to the html.
+So I moved it to the html, but kept it commented out here, just in case, for later.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +77,53 @@ p {
     background-position: center;
 }
 
+/* hmm, I think I'll make things with this class float to the left side of the page. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* and while we're at it, lets make this class float to the right.. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* How about we make the main section elements look like this: */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing 
+    I'm sure that these classes will end up looking like this:
+*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing img's 
+    I think I want these images to be about thiiiiiiiis big
+*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing h2's 
+    I demand that all the h2 elements resemble as follows:
+*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* You will soon see the benefits of showcasing the benefits all the way to the right... */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,115 +135,35 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* consolidated .benefit-lead, .benefit-brand, .benefit-cost 
+    I think this has become pretty self explanatory at this point.
+*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* consolidated .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 
+    *sings to self* "If you dont know me by nooooooow...."
+*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* consolidated .benefit-lead, .benefit-brand, .benefit-cost img's 
+    and I want THESE images to look like THIS!
+*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* And, as they say, last, but not LEAST: */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
